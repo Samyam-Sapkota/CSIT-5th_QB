@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th Semester Question Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin-top: 0px;
+            padding: 0;
+            display:block;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        .subject-box {
+            margin-bottom: 40px;
+        }
+        
+        .subject-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .subject-list li {
+            margin: 20px 0;
+        }
+        
+        .subject-list li a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: block;
+            width: 200px; /* Same width for all subjects */
+            margin: 0 auto; /* Center subject links */
+        }
+        
+        .subject-list li a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .sub-links {
+            display:none;
+            list-style-type:circle;
+            list-style-position: inside;
+            padding: 10;
+            margin: 0;
+            text-align: center;
+           
+        }
+
+        .sub-links li {
+            margin: 10px 0;
+        }
+
+        .sub-links li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Subject Question Banks</h1>
+        <div class="subject-box">
+            <ul class="subject-list">
+                <li><a href="#" onclick="toggleLinks('WebTechnology')">Web Technology</a></li>
+            </ul>
+            <ul class="sub-links" id="WebTechnology">
+                <li><a href="./web-tec/Web_2076.html">Question Bank 2076</a></li>
+                <li><a href="./web-tec/Web_2078.html">Question Bank 2078</a></li>
+                <li><a href="./web-tec/Web_2079.html">Question Bank 2079</a></li>
+                <li><a href="./web-tec/Web_2080.html">Question Bank 2080</a></li>
+                <!-- <li><a href="./web-tec/Web_207.html">Question Bank 2024</a></li> -->
+            </ul>
+        </div>
+        
+        <div class="subject-box">
+            <ul class="subject-list">
+                <li><a href="#" onclick="toggleLinks('Simulation')">Simulation</a></li>
+            </ul>
+            <ul class="sub-links" id="Simulation">
+                <li><a href="./Simulation/sm_2076.html">Question Bank 2076</a></li>
+                <li><a href="./Simulation/sm_2078.html">Question Bank 2078</a></li>
+                <li><a href="./Simulation/sm_2079.html">Question Bank 2079</a></li>
+                <li><a href="./Simulation/sm_2080.html">Question Bank 2080</a></li>
+                <!-- <li><a href="sim_2024.html">Question Bank 2024</a></li> -->
+            </ul>
+        </div>
+        
+        <div class="subject-box">
+            <ul class="subject-list">
+                <li><a href="#" onclick="toggleLinks('DAA')">DAA</a></li>
+            </ul>
+            <ul class="sub-links" id="DAA">
+                <li><a href="./DAA/DAA_2076.html">Question Bank 2076</a></li>
+                <li><a href="./DAA/DAA_2078.html">Question Bank 2078</a></li>
+                <li><a href="./DAA/DAA_2079.html">Question Bank 2079</a></li>
+                <li><a href="./DAA/DAA_2080.html">Question Bank 2080</a></li>
+                <!-- <li><a href="./DAA/DAA_207.html">Question Bank 2024</a></li> -->
+            </ul>
+        </div>
+        
+        <div class="subject-box">
+            <ul class="subject-list">
+                <li><a href="#" onclick="toggleLinks('SAD')">SAD</a></li>
+            </ul>
+            <ul class="sub-links" id="SAD">
+                <li><a href="./SAD/SAD_2076.html">Question Bank 2076</a></li>
+                <li><a href="./SAD/sad_2078.html">Question Bank 2078</a></li>
+                <li><a href="./SAD/sad_2079.html">Question Bank 2079</a></li>
+                <li><a href="./SAD/sad_2080.html">Question Bank 2080</a></li>
+                <!-- <li><a href="./SAD/sad_2024.html">Question Bank 2024</a></li> -->
+            </ul>
+        </div>
+        
+        <div class="subject-box">
+            <ul class="subject-list">
+                <li><a href="#" onclick="toggleLinks('Cryptography')">Cryptography</a></li>
+            </ul>
+            <ul class="sub-links" id="Cryptography">
+                <li><a href="./Crypto/Crypto_2076.html">Question Bank 2076</a></li>
+                <li><a href="./Crypto/Crypto_2078.html">Question Bank 2078</a></li>
+                <li><a href="./Crypto/Crypto_2079.html">Question Bank 2079</a></li>
+                <li><a href="./Crypto/Crypto_2080.html">Question Bank 2080</a></li>
+                <!-- <li><a href="./Crypto/Crypto_207.html">Question Bank 2024</a></li> -->
+            </ul>
+        </div>
+    
+
+    <div class="subject-box">
+        <ul class="subject-list">
+            <li><a href="#" onclick="toggleLinks('Multimedia')">Multimedia</a></li>
+        </ul>
+        <ul class="sub-links" id="Multimedia">
+            <li><a href="./multimedia/multi_2076.html">Question Paper 2076</a></li>
+            <li><a href="./multimedia/multi_2078.html">Question Paper 2078</a></li>
+            <li><a href="./multimedia/multi_2079.html">Question Paper 2079</a></li>
+            <li><a href="./multimedia/multi_2080.html">Question Paper 2080</a></li>
+            <!-- <li><a href="./Crypto/Crypto_207.html">Question Bank 2024</a></li> -->
+        </ul>
+    </div>
+</div>
+
+
+    <script>
+        function toggleLinks(subject) {
+            var links = document.getElementById(subject);
+            if (links.style.display === 'block') {
+                links.style.display = 'none';
+            } else {
+                links.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
